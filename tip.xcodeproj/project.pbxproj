@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0A1FCF24D7720100618260 /* SettingTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A1FCE24D7720100618260 /* SettingTableTableViewController.swift */; };
+		1D0A1FD124D774EA00618260 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A1FD024D774EA00618260 /* SettingsTableViewCell.swift */; };
+		1D0A1FD324D77C2A00618260 /* RadioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A1FD224D77C2A00618260 /* RadioTableViewCell.swift */; };
+		1D7E94D324CFB67800659338 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E94D224CFB67800659338 /* ScrollViewController.swift */; };
 		1DC7FF8A24CF6FDC00CBB4CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7FF8924CF6FDC00CBB4CB /* AppDelegate.swift */; };
 		1DC7FF8C24CF6FDC00CBB4CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7FF8B24CF6FDC00CBB4CB /* SceneDelegate.swift */; };
 		1DC7FF8E24CF6FDC00CBB4CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7FF8D24CF6FDC00CBB4CB /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0A1FCE24D7720100618260 /* SettingTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableTableViewController.swift; sourceTree = "<group>"; };
+		1D0A1FD024D774EA00618260 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		1D0A1FD224D77C2A00618260 /* RadioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioTableViewCell.swift; sourceTree = "<group>"; };
+		1D7E94D224CFB67800659338 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		1DC7FF8624CF6FDC00CBB4CB /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC7FF8924CF6FDC00CBB4CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DC7FF8B24CF6FDC00CBB4CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +110,11 @@
 				1DC7FF8924CF6FDC00CBB4CB /* AppDelegate.swift */,
 				1DC7FF8B24CF6FDC00CBB4CB /* SceneDelegate.swift */,
 				1DC7FF8D24CF6FDC00CBB4CB /* ViewController.swift */,
+				1D7E94D224CFB67800659338 /* ScrollViewController.swift */,
+				1D0A1FCE24D7720100618260 /* SettingTableTableViewController.swift */,
+				1D0A1FD224D77C2A00618260 /* RadioTableViewCell.swift */,
 				1DC7FF8F24CF6FDC00CBB4CB /* Main.storyboard */,
+				1D0A1FD024D774EA00618260 /* SettingsTableViewCell.swift */,
 				1DC7FF9224CF6FDF00CBB4CB /* Assets.xcassets */,
 				1DC7FF9424CF6FDF00CBB4CB /* LaunchScreen.storyboard */,
 				1DC7FF9724CF6FDF00CBB4CB /* Info.plist */,
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC7FF8E24CF6FDC00CBB4CB /* ViewController.swift in Sources */,
+				1D0A1FCF24D7720100618260 /* SettingTableTableViewController.swift in Sources */,
+				1D0A1FD124D774EA00618260 /* SettingsTableViewCell.swift in Sources */,
 				1DC7FF8A24CF6FDC00CBB4CB /* AppDelegate.swift in Sources */,
+				1D0A1FD324D77C2A00618260 /* RadioTableViewCell.swift in Sources */,
 				1DC7FF8C24CF6FDC00CBB4CB /* SceneDelegate.swift in Sources */,
+				1D7E94D324CFB67800659338 /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
